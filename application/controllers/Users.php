@@ -76,7 +76,7 @@ class Users extends REST_Controller {
         }
         else
         {
-            $this->response(array('status' => 'success'),201);
+            $this->response(array('status' => 'no_content'),204);
         }
 
     }
